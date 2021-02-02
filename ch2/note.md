@@ -6,4 +6,12 @@ exports
 
 path.join
 
-process.stdout
+process.stdout process.stdin 
+
+console.error 写入 process.stderr 流; 
+
+node .\console-1.js 2> errors-file.log
+
+占位符 %s(string)  %d(digit) %j(json) console.log('Hello %s', name)
+
+console.time() console.timeEnd()
