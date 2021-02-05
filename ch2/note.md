@@ -12,6 +12,17 @@ console.error 写入 process.stderr 流;
 
 node .\console-1.js 2> errors-file.log
 
-占位符 %s(string)  %d(digit) %j(json) console.log('Hello %s', name)
+占位符
+%s(string)
+
+%d(digit)
+
+ %j(json)
+
+console.log('Hello %s', name)
 
 console.time() console.timeEnd()
+
+POSIX, SIGNUP
+
+事件轮询的模型和顺序
