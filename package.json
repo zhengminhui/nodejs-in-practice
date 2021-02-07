@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/zhengminhui/nodejs-in-practice/issues"
   },
-  "homepage": "https://github.com/zhengminhui/nodejs-in-practice#readme"
+  "homepage": "https://github.com/zhengminhui/nodejs-in-practice#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
 }
